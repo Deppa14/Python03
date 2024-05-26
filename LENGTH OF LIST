@@ -1,0 +1,8 @@
+def len(list):
+    print(list)
+    c= 0
+    for i in list:
+        c+=1
+    return c
+l=[1,2,3,4,5]
+print(len(l))
