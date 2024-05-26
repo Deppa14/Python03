@@ -1,0 +1,8 @@
+M = input("Enter a string: ")
+D = ''
+for i in M:
+    D = i + D
+if M == D:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
