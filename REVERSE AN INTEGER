@@ -1,0 +1,9 @@
+def reverse(integer):
+    integer = str(integer)[::-1]
+    return int(integer)
+
+original_int = 1234
+reversed_int = reverse(original_int)
+
+print(f"The original int: {original_int}")
+print(f"The reversed int: {reversed_int}")
