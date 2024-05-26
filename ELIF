@@ -1,0 +1,11 @@
+a = 5
+if a == 4:
+    if a == 4:
+        print("hi")
+    else:
+        print("welcome")
+else:
+    if a == 5:
+        print("hello")
+    else:
+        print("yes")
