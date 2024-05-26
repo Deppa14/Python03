@@ -1,0 +1,9 @@
+def reverse(string):
+    string = string[::-1]
+    return string
+
+original_string = "deeps"
+reverse_string = reverse(original_string)
+
+print(f"The original string:{original_string}")
+print(f"The reverse string:{reverse_string}")
